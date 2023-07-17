@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0b2614d697803110a02b732e6253afa9" extends="task" label="Projects" max_length="40" name="x_998267_project_m_projects" type="collection">
+        <element label="Cost" max_length="40" name="cost" type="integer"/>
+    </element>
+</database>

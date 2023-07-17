@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0059b89697043110a02b732e6253afc7" label="Time Entries" max_length="40" name="x_998267_project_m_time_entries" type="collection">
+        <element label="Sub-Task" max_length="32" name="sub_task" reference="x_998267_project_m_tasks" type="reference"/>
+        <element label="Time Spent" max_length="40" name="time_spent" type="glide_duration"/>
+        <index name="index">
+            <element name="sub_task"/>
+        </index>
+    </element>
+</database>
