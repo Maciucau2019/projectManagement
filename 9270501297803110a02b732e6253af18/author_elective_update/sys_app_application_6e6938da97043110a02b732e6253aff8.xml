@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Time Entries</name>
+        <order>100</order>
+        <roles>x_998267_project_m.time_entries_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 12:13:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e6938da97043110a02b732e6253aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Entries</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope>
+        <sys_update_name>sys_app_application_6e6938da97043110a02b732e6253aff8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 12:13:43</sys_updated_on>
+        <title>Time Entries</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Management">9270501297803110a02b732e6253af18</application>
+        <file_path/>
+        <instance_id>e247af67dbed57c44c1ff70fbf961970</instance_id>
+        <instance_name>dev57177</instance_name>
+        <name>sys_app_application_6e6938da97043110a02b732e6253aff8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Time Entries</name><order>100</order><roles>x_998267_project_m.time_entries_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-17 12:13:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6e6938da97043110a02b732e6253aff8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Time Entries</sys_name><sys_overrides/><sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package><sys_policy/><sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope><sys_update_name>sys_app_application_6e6938da97043110a02b732e6253aff8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-17 12:13:43</sys_updated_on><title>Time Entries</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-975771189</payload_hash>
+        <record_name>Time Entries</record_name>
+        <reverted_from/>
+        <source>9e70d85297803110a02b732e6253afa0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 12:13:43</sys_created_on>
+        <sys_id>b66938da97043110a02b732e6253affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18963c552520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 12:13:43</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>fa6938da0e0431100388c651d0c50bfa</update_guid>
+        <update_guid_history>fa6938da0e0431100388c651d0c50bfa:-975771189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Time Entries">48ab395e97083110a02b732e6253afef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 17:03:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>411ce219c80346e0acf65f183337e264</sys_id>
+        <sys_metadata>6e6938da97043110a02b732e6253aff8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Entries</sys_name>
+        <sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope>
+        <sys_scope_delete display_value="">08b270dbd2e24800afd8bc496b272400</sys_scope_delete>
+        <sys_update_name>sys_app_application_6e6938da97043110a02b732e6253aff8</sys_update_name>
+        <sys_update_version display_value="sys_app_application_6e6938da97043110a02b732e6253aff8">b66938da97043110a02b732e6253affb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 17:03:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

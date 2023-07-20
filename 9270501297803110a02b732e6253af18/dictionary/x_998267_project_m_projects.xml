@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0b2614d697803110a02b732e6253afa9" extends="task" label="Projects" max_length="40" name="x_998267_project_m_projects" type="collection">
-        <element label="Cost" max_length="40" name="cost" type="integer"/>
+    <element db_object_id="0b2614d697803110a02b732e6253afa9" extends="task" label="Project" max_length="40" name="x_998267_project_m_projects" type="collection">
+        <element label="Allocated Funds" mandatory="true" max_length="20" name="allocated_funds" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;        var rate;&#13;&#10;&#13;&#10;    var timesgr = new GlideRecord('x_998267_project_m_time_entries'); &#13;&#10;&#9;timegr.addQuery('project', current);&#13;&#10;    timegr.query();&#13;&#10;    while (timegr.next()) {&#13;&#10;         var ratetime = timegr.time_spent.getValue();&#13;&#10;        rate += ratetime*timegr.rate_value.getValue();&#13;&#10;    }&#13;&#10;    return current.allocated_funds-rate; // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Cost" max_length="40" name="cost" read_only="true" type="currency"/>
+        <element label="Project manager" mandatory="true" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;     &#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.allocated_funds-current.cost;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Remaining Funds" max_length="20" name="remaining_funds" read_only="true" type="currency" virtual="true"/>
     </element>
 </database>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Project Management">eb909c5297803110a02b732e6253af01</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open - Unassigned</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>task</name>
+        <order>7</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>active=true^assigned_toISEMPTY^EQ</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2023-07-17 09:15:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab909c5297803110a02b732e6253af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open - Unassigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope>
+        <sys_update_name>sys_app_module_ab909c5297803110a02b732e6253af12</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2023-07-17 09:15:27</sys_updated_on>
+        <timeline_page/>
+        <title>Open - Unassigned</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Management">9270501297803110a02b732e6253af18</application>
+        <file_path/>
+        <instance_id>e247af67dbed57c44c1ff70fbf961970</instance_id>
+        <instance_name>dev57177</instance_name>
+        <name>sys_app_module_ab909c5297803110a02b732e6253af12</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Project Management">eb909c5297803110a02b732e6253af01</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Open - Unassigned</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>task</name><order>7</order><override_menu_roles>false</override_menu_roles><query>active=true^assigned_toISEMPTY^EQ</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>abel.tuter</sys_created_by><sys_created_on>2023-07-17 09:15:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ab909c5297803110a02b732e6253af12</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open - Unassigned</sys_name><sys_overrides/><sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package><sys_policy/><sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope><sys_update_name>sys_app_module_ab909c5297803110a02b732e6253af12</sys_update_name><sys_updated_by>abel.tuter</sys_updated_by><sys_updated_on>2023-07-17 09:15:27</sys_updated_on><timeline_page/><title>Open - Unassigned</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1817265326</payload_hash>
+        <record_name>Open - Unassigned</record_name>
+        <reverted_from/>
+        <source>9e70d85297803110a02b732e6253afa0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2023-07-17 09:15:27</sys_created_on>
+        <sys_id>e7909c5297803110a02b732e6253af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18963221f330000001</sys_recorded_at>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2023-07-17 09:15:27</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2f909c52cd8031109540a08e8ea8ba13</update_guid>
+        <update_guid_history>2f909c52cd8031109540a08e8ea8ba13:1817265326</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open - Unassigned">fe4d39de97083110a02b732e6253afc1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 17:10:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>13e18e947520413d97dd31dfa4340331</sys_id>
+        <sys_metadata>ab909c5297803110a02b732e6253af12</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open - Unassigned</sys_name>
+        <sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope>
+        <sys_scope_delete display_value="">08b270dbd2e24800afd8bc496b272400</sys_scope_delete>
+        <sys_update_name>sys_app_module_ab909c5297803110a02b732e6253af12</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ab909c5297803110a02b732e6253af12">e7909c5297803110a02b732e6253af14</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 17:10:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

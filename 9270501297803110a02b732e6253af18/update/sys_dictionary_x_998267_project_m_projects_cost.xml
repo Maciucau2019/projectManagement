@@ -5,9 +5,16 @@
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
+        var rate;
 
-	// Add your code here
-	return '';  // return the calculated value
+    var timesgr = new GlideRecord('x_998267_project_m_time_entries'); 
+	timegr.addQuery('project', current);
+    timegr.query();
+    while (timegr.next()) {
+         var ratetime = timegr.time_spent.getValue();
+        rate += ratetime*timegr.rate_value.getValue();
+    }
+    return current.allocated_funds-rate; // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
@@ -32,13 +39,13 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="Currency">currency</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_998267_project_m_projects</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -58,7 +65,7 @@
         <sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope>
         <sys_update_name>sys_dictionary_x_998267_project_m_projects_cost</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-17 10:43:02</sys_updated_on>
+        <sys_updated_on>2023-07-19 06:57:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

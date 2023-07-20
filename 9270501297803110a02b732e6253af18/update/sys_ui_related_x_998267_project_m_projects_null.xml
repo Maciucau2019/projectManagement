@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_998267_project_m_projects" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Projects - Default view" name="x_998267_project_m_projects" related_list="NULL" sys_domain="global" view="Default view">47b1e01697c03110a02b732e6253af6d</list_id>
+            <list_id display_value="Project - Default view" name="x_998267_project_m_projects" related_list="NULL" sys_domain="global" view="Default view">47b1e01697c03110a02b732e6253af6d</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_998267_project_m_tasks.project</related_list>
@@ -15,7 +15,7 @@
             <sys_updated_on>2023-07-17 10:30:15</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Projects - Default view</calculated_name>
+            <calculated_name>Project - Default view</calculated_name>
             <filter/>
             <name>x_998267_project_m_projects</name>
             <order_by/>

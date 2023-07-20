@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Time Spent</column_label>
+        <column_label>Approved Hours</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -32,8 +32,8 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_duration</internal_type>
-        <mandatory>false</mandatory>
+        <internal_type display_value="Integer">integer</internal_type>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_998267_project_m_time_entries</name>
         <next_element/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-17 12:25:53</sys_created_on>
-        <sys_name>Time Spent</sys_name>
+        <sys_created_on>2023-07-18 09:12:17</sys_created_on>
+        <sys_name>Approved Hours</sys_name>
         <sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope>
         <sys_update_name>sys_dictionary_x_998267_project_m_time_entries_time_spent</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-17 12:25:53</sys_updated_on>
+        <sys_updated_on>2023-07-18 09:13:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

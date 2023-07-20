@@ -4,16 +4,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-17 09:39:57</sys_created_on>
         <sys_id>d23658d697803110a02b732e6253af3c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_998267_project_m_projects.x_998267_project_m.projects_user</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_998267_project_m_projects.x_998267_project_m.project_manager</sys_name>
         <sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope>
         <sys_security_acl display_value="x_998267_project_m_projects">563658d697803110a02b732e6253af39</sys_security_acl>
         <sys_update_name>sys_security_acl_role_d23658d697803110a02b732e6253af3c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-17 09:39:57</sys_updated_on>
-        <sys_user_role display_value="x_998267_project_m.projects_user" name="x_998267_project_m.projects_user">8a36d0d697803110a02b732e6253afa6</sys_user_role>
+        <sys_updated_on>2023-07-19 08:22:24</sys_updated_on>
+        <sys_user_role display_value="x_998267_project_m.project_manager" name="x_998267_project_m.project_manager">e306dafa97047110a02b732e6253af30</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

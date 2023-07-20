@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0059b89697043110a02b732e6253afc7" label="Time Entries" max_length="40" name="x_998267_project_m_time_entries" type="collection">
-        <element label="Sub-Task" max_length="32" name="sub_task" reference="x_998267_project_m_tasks" type="reference"/>
-        <element label="Time Spent" max_length="40" name="time_spent" type="glide_duration"/>
-        <index name="index">
-            <element name="sub_task"/>
-        </index>
+    <element db_object_id="564d7cde97043110a02b732e6253af52" extends="task" label="Time Entry" max_length="40" name="x_998267_project_m_time_entries" type="collection">
+        <element label="Project" max_length="32" name="project" reference="x_998267_project_m_projects" type="reference"/>
+        <element choice="1" display="true" label="Rate Title" max_length="40" name="rate_title" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Junior Dev" sequence="0" value="Junior Dev"/>
+                <element inactive_on_update="false" label="HR Manager" sequence="1" value="HR Manager"/>
+                <element inactive_on_update="false" label="Tester" sequence="2" value="Tester"/>
+            </choice>
+        </element>
+        <element label="Rate Value" max_length="20" name="rate_value" type="currency"/>
+        <element label="Approved Hours" mandatory="true" max_length="40" name="time_spent" type="integer"/>
     </element>
 </database>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Projects</name>
+        <order>100</order>
+        <roles>x_998267_project_m.projects_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 09:39:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>463658d697803110a02b732e6253af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Projects</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope>
+        <sys_update_name>sys_app_application_463658d697803110a02b732e6253af1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 09:39:56</sys_updated_on>
+        <title>Projects</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Management">9270501297803110a02b732e6253af18</application>
+        <file_path/>
+        <instance_id>e247af67dbed57c44c1ff70fbf961970</instance_id>
+        <instance_name>dev57177</instance_name>
+        <name>sys_app_application_463658d697803110a02b732e6253af1d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Projects</name><order>100</order><roles>x_998267_project_m.projects_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-17 09:39:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>463658d697803110a02b732e6253af1d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Projects</sys_name><sys_overrides/><sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package><sys_policy/><sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope><sys_update_name>sys_app_application_463658d697803110a02b732e6253af1d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-17 09:39:56</sys_updated_on><title>Projects</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1094642452</payload_hash>
+        <record_name>Projects</record_name>
+        <reverted_from/>
+        <source>9e70d85297803110a02b732e6253afa0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 09:39:56</sys_created_on>
+        <sys_id>8a3658d697803110a02b732e6253af1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189633888900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 09:39:56</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>ce3658d6b78031102eebbf3cc95f8e1e</update_guid>
+        <update_guid_history>ce3658d6b78031102eebbf3cc95f8e1e:-1094642452</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Projects">2c9b395e97083110a02b732e6253af49</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 17:02:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>029417898be5461780099fb34b745a99</sys_id>
+        <sys_metadata>463658d697803110a02b732e6253af1d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Projects</sys_name>
+        <sys_package display_value="Project Management" source="x_998267_project_m">9270501297803110a02b732e6253af18</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project Management">9270501297803110a02b732e6253af18</sys_scope>
+        <sys_scope_delete display_value="">08b270dbd2e24800afd8bc496b272400</sys_scope_delete>
+        <sys_update_name>sys_app_application_463658d697803110a02b732e6253af1d</sys_update_name>
+        <sys_update_version display_value="sys_app_application_463658d697803110a02b732e6253af1d">8a3658d697803110a02b732e6253af1f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 17:02:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

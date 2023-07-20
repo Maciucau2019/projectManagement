@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ef430e9697483110a02b732e6253afc9" extends="sys_user" label="Resource" max_length="40" name="x_998267_project_m_resource" type="collection"/>
+</database>
